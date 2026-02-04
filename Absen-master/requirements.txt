@@ -1,5 +1,5 @@
 streamlit
-streamlit_autorefresh
+streamlit-autorefresh
 
 numpy
 pandas
@@ -19,5 +19,6 @@ playsound==1.2.2
 pyttsx3
 gTTS
 requests
+
 
 
