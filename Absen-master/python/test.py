@@ -1,3 +1,6 @@
+import sklearn
+print("SKLEARN OK", sklearn.__version__)
+
 from sklearn.neighbors import KNeighborsClassifier
 import cv2
 import pickle
@@ -207,4 +210,5 @@ while True:
     if k==ord('q'):
         break
 video.release()
+
 cv2.destroyAllWindows()
